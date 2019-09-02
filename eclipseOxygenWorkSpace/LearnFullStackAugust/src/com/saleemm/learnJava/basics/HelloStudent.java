@@ -25,13 +25,46 @@ public class HelloStudent {
 	boolean boolData = false;
 	
 	//Non Premitive,  but used like a primitive
-	String strData  = "This is a String. From a single character to a book"; 
+	String strData  = "Hello Students!!"; //This is a String. From a single character to a book"; 
+
+	//Class level Data
+	static String companyName = "H2kInfosys Inc.";
+	
+	//Access Modifiers
+	
+	/**
+	 * Access Modifier
+	 * public  -- Accessible to anyone
+	 * private -- No one except that class has access to it.
+	 * protected -- class and its children can access it.
+	 * default -- package access -- all the classes within the same package has access to it.
+	 * @param args
+	 */
 
 	//methods ==> Data processors
+	
+	// main method is the strating point of java execution.
 	public static void main (String[] args ) {
-		System.out.println("Hello World!!");
-		System.out.println("Remember control + space in Eclipse");
-		//System.out.println("testVar : " + testVar);
+		//Object of a class
+		//ClassName userDefinedObjectName = new className();
+		HelloStudent hello = new HelloStudent(); //hello is object of cloass HelloStudent
+		System.out.println(hello.strData);
+		//Variables created directly under the class are called instance variables.
+		//Variables are attached to instance/
+		
+		HelloStudent helloWorld = new HelloStudent(); //hello is object of cloass HelloStudent
+		helloWorld.strData = "Hello World";
+		HelloStudent.companyName = "Best Buy Inc.";
+
+		System.out.println(helloWorld.strData);
+		System.out.println(hello.strData);
+		
+		System.out.println(HelloStudent.companyName);
+		System.out.println(HelloStudent.companyName);
+		
+		//Static Data should be access with class name
+		
+		
 		
 	}
 	
