@@ -3,6 +3,11 @@ package com.saleemm.learnJava.basics;
 //github repository
 //Package
 //creating a class
+//Variables -- 8 primitive and String
+//Static and Instance Variables
+//Access Modifiers
+//Create objects -- Accessing variables with objects
+
 
 
 public class HelloStudent {
