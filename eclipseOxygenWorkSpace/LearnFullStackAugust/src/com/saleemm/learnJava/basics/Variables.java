@@ -43,12 +43,12 @@ public class Variables {
 		varOne.strData = "I am giving new value ";
 		
 		System.out.println(varOne.strData);
-		System.out.println(varOne.companyName);
+//		System.out.println(varOne.companyName);
 
 		
 		Variables varTwo = new Variables();
 		System.out.println(varTwo.strData);
-		System.out.println(varTwo.companyName);
+//		System.out.println(varTwo.companyName);
 
 		
 		

@@ -29,10 +29,12 @@ public class HelloWorld {
 	 * Object has properties (variables) and functions (methods)
 	 * @param args
 	 */
+	public static String testVar = "This is a test";
 	
 	public static void main (String[] args ) {
 		System.out.println("Hello World!!");
 		System.out.println("Remember control + space in Eclipse");
+		System.out.println("testVar : " + testVar);
 		
 	}
 

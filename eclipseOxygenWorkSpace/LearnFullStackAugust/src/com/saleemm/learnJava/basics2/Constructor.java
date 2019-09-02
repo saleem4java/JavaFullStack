@@ -13,6 +13,7 @@ public class Constructor {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Constructor constructor = new Constructor();
+		System.out.println("Local constructor " + constructor);
 
 	}
 
